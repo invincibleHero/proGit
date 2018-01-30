@@ -40,7 +40,10 @@
 		git tag v0.3 
 	验证标签： git tag -v [tag-name]  用于验证已经签署的标签 。 此命令会调用GPG来验证签名， 所有你需要签署者的公钥，存放在keyring中。才能验证。 
 	追加标签： git tag -a 标签名  sha-1 验证码
-	
+	分享标签：
+		默认情况下，git push 并不会把标签传送到远端服务器上，只有通过显示命令才能分享标签到远端分仓库。
+		其命令格式如同推送分支： git push origin [tagname] 即可
+		一次推送所有标签：  git push origin --tags 
 	
 	
 	
