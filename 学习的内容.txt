@@ -14,6 +14,34 @@
 	修改最后一次提交。  git commit --amend   此命令将使用当前暂存区域快照提交。
 	
 	
+远程仓库的管理和使用
+1. 查看当前的远程仓库 git remote -v
+2. 添加远程仓库       git add  [shortname] [url]  
+3. 从远程仓库抓取数据  git fetch [remote-name]
+		可以抓取远程仓库的一个分支或者所以分支(并将其中的一个分支合并到本地)
+4. 推送数据到远程仓库
+	git push [remote-name] [branch-name] 
+5. 查看远程仓库信息
+	git remote show [remote-name]
+6. 远程仓库的删除和重命名
+	git remote rename oldName newName 
+		对远程仓库的重命名，也会使对应的分支名称发生变化，原来的 pb/master 分支
+现在成了 paul/master。
+	删除远程仓库：
+		git remote rm 远程仓库名
+
+标签管理：
+	同大多数 VCS 一样， Git 也可以对某一时间点上的版本打上标签。 人们在发布某个软件版本(比如， v1.0)的时候，经常这么做。
+1. 列显已有的标签
+	列出现有的标签的命令： git tag 
+	
+
+	
+
+	
+	
+	
+	
 
 
 	
