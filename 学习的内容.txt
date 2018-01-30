@@ -44,6 +44,20 @@
 		默认情况下，git push 并不会把标签传送到远端服务器上，只有通过显示命令才能分享标签到远端分仓库。
 		其命令格式如同推送分支： git push origin [tagname] 即可
 		一次推送所有标签：  git push origin --tags 
+		
+
+	
+分支管理：
+	创建分支：
+		git branch 分支名  
+	切换分支：
+		git checkout 分支名 
+	新建分支并切换到该分支:
+		git checkout -b 分支名A  
+		这条命令相当于： git branch 分支名A + git checkout 分支名A
+		
+		
+控制上传到github上面的代码文件？（暂时不会）
 	
 	
 	
