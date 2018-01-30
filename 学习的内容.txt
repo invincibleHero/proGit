@@ -55,6 +55,10 @@
 	新建分支并切换到该分支:
 		git checkout -b 分支名A  
 		这条命令相当于： git branch 分支名A + git checkout 分支名A
+	分支的合并：
+		git checkout master 
+		git merge 分支名A 
+		上面的操作将分支A 合并到 master 分支。 
 		
 		
 控制上传到github上面的代码文件？（暂时不会）
