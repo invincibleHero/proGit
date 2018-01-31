@@ -2,4 +2,9 @@
 
 当两个远程分支的用户名和密码不一样的时候，上传本地分支到远程分支的时候，很麻烦。  
 	关于git 的配置文件的 global  system local 三个级别，不是很清楚。
+	
+	
+	在提分支到远程分支的时候，发现提交时的用户名是 invincibleHero， 而不是 通过 git config --list 查询出来的user.name 的取值？？
+	这里的invincibleHero 是初次安装git的时候的用户名， 但是这个用户名，通过 git config --local --list ， git config --global --list ， git config --system --list 查询出来的都没有？？
+	不清楚这是怎么回事。
 	 
